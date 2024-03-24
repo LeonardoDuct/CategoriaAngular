@@ -1,0 +1,13 @@
+<nav>
+  <app-lista-categorias>
+  </app-lista-categorias>
+</nav>
+<main>
+  <app-categoria
+    *ngIf="(categoriaService.categoriaSelecionada$ | async) as categoria"
+    [categoria]="categoria"
+  >
+  </app-categoria>
+</main>
+
+<router-outlet />

@@ -1,0 +1,23 @@
+<section>
+  <main>
+    <div
+      *ngFor="let a of categoria.filmes"
+      class="card-filme"
+    >
+      <div class="div-filmes">
+        <img [src]="a.img" alt="">
+        <div class="desc-filme">
+          <span class="titulo">
+            {{ a.nome }}
+          </span>
+          <span class="diretor">
+            {{ a.diretor }} - {{ a.ano }}
+          </span>
+          <span class="elenco">
+            {{ a.elenco }}
+          </span>
+        </div>
+      </div>
+    </div>
+  </main>
+</section>

@@ -1,0 +1,6 @@
+<button
+  *ngFor="let t of categorias"
+  (click)="categoriaService.selecionaCategoria(t)"
+>
+  {{ t.nome }}
+</button>

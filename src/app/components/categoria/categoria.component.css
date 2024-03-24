@@ -1,0 +1,38 @@
+.card-filme {
+  display: flex;
+  border-radius: 0.25em;
+  border: groove;
+  height: auto;
+  overflow: hidden;
+}
+
+.desc-filme{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: start;
+}
+.div-filmes{
+  display: flex;
+  gap: 1rem;
+}
+.titulo{
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #00221d;
+}
+img{
+  width: 20rem;
+  height: 30rem;
+  margin: 0;
+}
+.diretor{
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.elenco{
+  font-size: 22px;
+  font-family: sans-serif;
+}
